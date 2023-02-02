@@ -14,23 +14,13 @@ const About = () => {
         </div>
 
         <p className="text-xl">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius,
-          deserunt illum mollitia officiis qui exercitationem perferendis neque
-          quasi a recusandae necessitatibus tempora iusto! Blanditiis error
-          iste, totam fugiat recusandae rerum laborum perferendis molestiae
-          aperiam asperiores nemo. Magni dolor maxime debitis vitae, eaque hic
-          ab mollitia voluptatibus, a nostrum eveniet laborum!
+          Allow me to introduce myself, my name is Rijan Shrestha, a determined computer science student who has a deep love for all things technology. I am a full-stack enthusiast, constantly seeking new ways to push the boundaries of what's possible and grow my skills. As a student of computer science, I bring a unique perspective to each and every project I work on. My ability to turn ideas into tangible solutions has earned me a reputation as a problem solver with a creative streak. Whether working as part of a team or flying solo, I consistently strive to deliver outstanding results that exceed expectations. So, if you're in need of a talented, motivated, and innovative developer, look no further. I am here to bring your ideas to life.
         </p>
 
         <br />
 
         <p className="text-xl">
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum
-          pariatur, vel similique sint, nobis aspernatur ut praesentium
-          explicabo ipsam aliquid quasi laboriosam et culpa possimus repudiandae
-          quisquam ullam maiores ab unde. Fugiat odio mollitia nemo alias.
-          Commodi facilis atque nulla vero voluptatem explicabo. Quibusdam,
-          magni quo! Eum cupiditate debitis labore.
+        To get in touch with me, you can use the links provided at the bottom of this page or through the floating dock on the left. If you need to reach me quickly, you can find me on Instagram under the username <a href="https://www.instagram.com/ree_zayn/" target="_blank" rel="noreferrer"><button className="text-sky-400 cursor-pointer hover:underline">ree_zayn</button></a> , where I'm most active.
         </p>
       </div>
     </div>

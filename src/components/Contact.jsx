@@ -24,12 +24,14 @@ const Contact = () => {
             </p>
           </div>
           <div className="pb-8">
-            <button className="text-sky-400 cursor-pointer">
-              Download my CV
-            </button>
+            <a href="/resume.pdf" download="true">
+              <button className="text-sky-400 cursor-pointer hover:underline">
+                Download my CV
+              </button>
+            </a>
           </div>
-          <div className="socialmedia flex flex-row justify-center md:justify-start">
-            <div className="bg-gray-500 p-2 mx-4 md:ml-0 rounded-xl">
+          <div className="socialmedia flex flex-row justify-center md:justify-start text-gray-800">
+            <div className="bg-gray-500 p-2 mx-4 md:ml-0 rounded-3xl hover:text-sky-400 duration-300">
               <a
                 href="https://www.linkedin.com/in/rijanshrestha3/"
                 target="_blank"
@@ -38,7 +40,7 @@ const Contact = () => {
                 <FaLinkedin size={20} />
               </a>
             </div>
-            <div className="bg-gray-500 p-2 mx-4 rounded-xl">
+            <div className="bg-gray-500 p-2 mx-4 rounded-3xl hover:text-sky-400 duration-300">
               <a
                 href="https://github.com/reezayn"
                 target="_blank"
@@ -47,7 +49,7 @@ const Contact = () => {
                 <FaGithub size={20} />
               </a>
             </div>
-            <div className="bg-gray-500 p-2 mx-4 rounded-xl">
+            <div className="bg-gray-500 p-2 mx-4 rounded-3xl hover:text-sky-400 duration-300">
               <a
                 href="mailto:rijanshrestha98450@gmail.com"
                 target="_blank"
@@ -56,7 +58,7 @@ const Contact = () => {
                 <HiOutlineMail size={20} />
               </a>
             </div>
-            <div className="bg-gray-500 p-2 mx-4 rounded-xl">
+            <div className="bg-gray-500 p-2 mx-4 rounded-3xl hover:text-sky-400 duration-300">
               <a
                 href="https://twitter.com/ree__zayn"
                 target="_blank"

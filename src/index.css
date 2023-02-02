@@ -15,4 +15,8 @@
     /* font-family: 'Ubuntu', sans-serif; */
     font-family: 'Raleway', sans-serif;
   }
+  ::selection {
+    color: black;
+    background: cyan;
+  }
 }
