@@ -75,7 +75,7 @@ const Contact = () => {
           </h1>
           <div className="bg-transparent px-8 m-1 md:m-5 rounded-3xl text-black">
             <form
-              action="https://getform.io/f/36fb030f-9cba-4f92-b9e1-0bc31461bff8"
+              action="https://getform.io/f/f24e9c49-1ea7-45a2-b218-d15be0e456aa"
               method="POST"
             >
               <div className="flex flex-col m-2">
