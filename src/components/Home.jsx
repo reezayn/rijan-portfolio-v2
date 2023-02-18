@@ -42,7 +42,7 @@ const Home = () => {
           <img
             src={HeroImage3}
             alt="it was me"
-            className="hidden md:flex rounded-[20px] mx-auto mt-15 w-[350px] hover:scale-110 duration-300"
+            className="hidden md:flex rounded-[20px] mx-auto mt-15 w-[350px] hover:scale-110 duration-500"
           />
         </div>
       </div>
