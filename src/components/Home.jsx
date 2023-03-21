@@ -9,14 +9,14 @@ const Home = () => {
   return (
     <div
       name="home"
-      className="h-screen w-full bg-gradient-to-b from-black via-black to-gray-800"
+      className="w-full h-screen bg-gradient-to-b from-black via-black to-gray-800"
     >
-      <div className="md:h-full max-w-screen-lg mx-auto flex flex-col-reverse items-center justify-between px-4 md:flex-row">
-        <div className="flex flex-col items-center md:items-start justify-center md:h-full">
-          <h1 className="text-4xl sm:text-7xl font-bold text-sky-400">
+      <div className="flex flex-col-reverse items-center justify-between max-w-screen-lg px-4 mx-auto md:h-full md:flex-row">
+        <div className="flex flex-col items-center justify-center md:items-start md:h-full">
+          <h1 className="text-4xl font-bold sm:text-7xl text-sky-400">
             Rijan Shrestha
           </h1>
-          <p className="text-gray-500 py-4 max-w-md text-center md:text-left">
+          <p className="max-w-md py-4 text-center text-gray-500 md:text-left">
             Hi! I'm a computer science student and a web development enthusiast.
             I specialize in creating visually striking and intuitive websites
             that stand out from the crowd. Let's work together and bring your
@@ -24,10 +24,10 @@ const Home = () => {
           </p>
           <div>
             <button className="group flex px-6 py-3 my-2 w-fit text-white items-center bg-gradient-to-r from-cyan-500 to-blue-500 rounded-[15px] cursor-pointer hover:font-[500]">
-              <Link to='about' smooth duration={500}>
-                About me
+              <Link to='contact' smooth duration={500}>
+                Contact me
               </Link>
-              <span className="group-hover:rotate-90 duration-300">
+              <span className="duration-300 group-hover:rotate-90">
                 <RiArrowRightSLine className="ml-1" />
               </span>
             </button>

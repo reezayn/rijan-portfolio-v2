@@ -50,7 +50,7 @@ const SocialLinks = () => {
   ];
 
   return (
-    <div className="hidden lg:flex flex-col top-[35%] left-0 fixed">
+    <div className="hidden base:flex flex-col top-[35%] left-0 fixed">
       <ul>
         {links.map(({id, child, href, style}) => (
           <li
@@ -63,7 +63,7 @@ const SocialLinks = () => {
           >
             <a
               href={href}
-              className="flex justify-between items-center w-full text-white"
+              className="flex items-center justify-between w-full text-white"
               target="_blank"
               rel="noreferrer"
             >
