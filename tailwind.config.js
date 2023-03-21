@@ -4,7 +4,11 @@ module.exports = {
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      screens: {
+        'base': '1200px',
+      },
+    },
     fontFamily: {
       signature: ['Great Vibes'],
     },
