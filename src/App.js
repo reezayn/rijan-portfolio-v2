@@ -9,7 +9,6 @@ import Contact from "./components/Contact";
 import Experience from "./components/Experience";
 import Hackathons from "./components/Hackathons";
 
-
 function App() {
   return (
     <>

@@ -23,7 +23,7 @@ const Home = () => {
             online presence to new heights.
           </p>
           <div>
-            <button className="group flex px-6 py-3 my-2 w-fit text-white items-center bg-gradient-to-r from-cyan-500 to-blue-500 rounded-[15px] cursor-pointer hover:font-[500]">
+            <button className="group flex px-6 py-3 my-2 w-fit text-white items-center bg-gradient-to-r from-sky-400 to-blue-500 rounded-[15px] cursor-pointer hover:font-[500]">
               <Link to='contact' smooth duration={500}>
                 Contact me
               </Link>
