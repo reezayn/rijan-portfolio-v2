@@ -19,6 +19,7 @@ const Hackathons = () => {
       organizer: 'Thapathali Campus, Kathmandu',
       venue: 'NATHM College, Kathmandu',
       date: 'Jan 21-24, 2023',
+      position: '',
       blogLink: '#',
       shortDesc:
         'This was my first ever hackathon. I got to experience and meet many like minded people here.',
@@ -69,7 +70,7 @@ const Hackathons = () => {
                         <span className="text-white"> Venue : </span>
                         {venue}
                       </h3>
-                      <h3 className="my-1 text-sm text-gray-400 md:text-base lg:text-base">
+                      <h3 className={`{"my-1 text-sm text-gray-400 md:text-base lg:text-base"} ${position === '' ? 'hidden': 'flex'}`}>
                         <span className="text-white"> Position : </span>
                         {position}
                       </h3>
