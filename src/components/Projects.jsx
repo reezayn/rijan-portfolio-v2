@@ -36,14 +36,14 @@ const Projects = () => {
   return (
     <div
       name="projects"
-      className="flex bg-gradient-to-b from-gray-800 to-black text-white"
+      className="flex text-white bg-gradient-to-b from-gray-800 to-black"
     >
-      <div className="max-w-screen-lg px-4 mx-auto justify-center w-full h-full">
+      <div className="justify-center w-full h-full max-w-screen-lg px-4 mx-auto">
         <div>
           <h1 className="text-4xl font-bold text-center md:text-left md:text-5xl">
             Projects
           </h1>
-          <p className="text-lg mt-10 text-gray-500">
+          <p className="mt-10 text-lg text-gray-500">
             These are some of the projects that I have built over the years that
             reflect my passion in software and design.
           </p>
@@ -61,7 +61,7 @@ const Projects = () => {
             }) => (
               <div
                 key={id}
-                className="one-project flex flex-col my-16 md:flex-row"
+                className="flex flex-col my-16 one-project md:flex-row"
               >
                 <div className="flex justify-center md:justify-start md:pr-[120px]">
                   <a href={linktosite} target="_blank" rel="noreferrer">
@@ -72,8 +72,8 @@ const Projects = () => {
                     />
                   </a>
                 </div>
-                <div className="flex flex-col justify-center items-center md:items-start">
-                  <h1 className="text-2xl font-bold py-2 md:text-4xl">
+                <div className="flex flex-col items-center justify-center md:items-start">
+                  <h1 className="py-2 text-2xl font-bold md:text-4xl">
                     {title}
                   </h1>
                   <p className="text-gray-500 md:text-lg">{shortdesc}</p>
@@ -86,13 +86,13 @@ const Projects = () => {
                   </div>
                   <div className="flex flex-row">
                     <a href={linktosite} target="_blank" rel="noreferrer">
-                      <button className="px-4 py-3 mx-0 my-2 w-[150px] rounded-lg text-black font-bold bg-sky-400 cursor-pointer hover:font-[500] hover:bg-black hover:border-2 border-sky-400 hover:text-sky-500 ">
+                      <button className="px-4 py-3 mx-0 my-2 w-[150px] rounded-lg text-black border-2 font-bold bg-sky-400 cursor-pointer hover:font-[500] hover:bg-black hover:border-2 border-sky-400 hover:text-sky-500 ">
                         Visit live
                       </button>
                     </a>
                     <a href={githublink} target="_blank" rel="noreferrer">
                       <button className="px-4 py-3 mx-3 my-2 w-[150px] rounded-lg font-bold border-2 border-sky-400 hover:bg-sky-400 hover:text-black text-sky-400 cursor-pointer hover:font-[500]">
-                        See more
+                        View Code
                       </button>
                     </a>
                   </div>

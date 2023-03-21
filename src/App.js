@@ -6,6 +6,8 @@ import Skills from "./components/Skills";
 import About from "./components/About";
 import Footer from "./components/Footer";
 import Contact from "./components/Contact";
+import Experience from "./components/Experience";
+import Hackathons from "./components/Hackathons";
 
 
 function App() {
@@ -14,6 +16,8 @@ function App() {
       <Navbar />
       <Home />
       <About />
+      <Experience />
+      <Hackathons />
       <Projects />
       <Skills />
       <Contact />

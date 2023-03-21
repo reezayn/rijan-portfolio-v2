@@ -9,9 +9,9 @@ const About = () => {
     >
       <div className="flex flex-col justify-center w-full h-full max-w-screen-lg p-4 mx-auto">
         <div className="pb-8">
-          <p className="text-4xl font-bold text-center md:text-left md:text-5xl">
+          <h1 className="text-4xl font-bold text-center md:text-left md:text-5xl">
             About
-          </p>
+          </h1>
         </div>
         <p className="text-base text-gray-400 md:text-lg lg:text-xl">
         Yo! This is Rijan - a self-proclaimed internet creator and die-hard One Piece fan. 
