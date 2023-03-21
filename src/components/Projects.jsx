@@ -36,7 +36,7 @@ const Projects = () => {
   return (
     <div
       name="projects"
-      className="flex text-white bg-gradient-to-b from-gray-800 to-black"
+      className="flex pt-10 text-white bg-gradient-to-b from-gray-800 to-black"
     >
       <div className="justify-center w-full h-full max-w-screen-lg px-4 mx-auto">
         <div>
