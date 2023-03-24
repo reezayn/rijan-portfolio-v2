@@ -1,7 +1,7 @@
 import React from "react";
 // import HeroImage from '../assets/heroImage.png'
 // import HeroImage2 from '../assets/heroImage2.png'
-import HeroImage3 from "../assets/heroImage3.png";
+import HeroImage3 from "../assets/heroImage4.png";
 import { RiArrowRightSLine } from "react-icons/ri";
 import { Link } from "react-scroll";
 
@@ -37,12 +37,12 @@ const Home = () => {
           <img
             src={HeroImage3}
             alt="it was me"
-            className="mx-auto mt-28 mb-10 w-[55%] rounded-[250px] md:hidden"
+            className="mx-auto mt-28 mb-10 w-[55%] rounded-full md:hidden"
           />
           <img
             src={HeroImage3}
             alt="it was me"
-            className="hidden md:flex rounded-[20px] mx-auto mt-15 w-[350px] hover:scale-110 duration-500"
+            className="hidden md:flex rounded-full mx-auto mt-15 w-[350px] hover:scale-110 duration-500"
           />
         </div>
       </div>
