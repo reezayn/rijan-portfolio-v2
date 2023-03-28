@@ -1,21 +1,31 @@
 import React from "react";
 import Doctorsahab from "../assets/projectspics/doctorsahab.png";
 import reegym from "../assets/projectspics/reegym.png";
-import yatra from "../assets/projectspics/yatra.png";
+import rijanAnimeBlog from "../assets/projectspics/rijanAnimeBlog.png";
+import ultraPokedex from "../assets/projectspics/ultraPokedex.png";
 
 const Projects = () => {
   const links = [
     {
       id: 1,
-      title: "Doctorsahab",
-      shortdesc: "An AI powered Health tool",
-      projectpic: Doctorsahab,
-      techused: ["React", "Tailwind"],
-      linktosite: "https://doctorsahab.netlify.app/",
-      githublink: "https://github.com/reezayn/doctorsahab",
+      title: "Anime Blog",
+      shortdesc: "A dynamic blog to provide you daily anime content",
+      projectpic: rijanAnimeBlog,
+      techused: ["Next.js", "Typescript", "Tailwind", "Sanity"],
+      linktosite: "https://animeblog.vercel.app/",
+      githublink: "https://github.com/reezayn/project-rijan-blog-v2",
     },
     {
       id: 2,
+      title: "Ultra Pokedex",
+      shortdesc: "Your own ultra pokedex. Gotta catch'em all",
+      projectpic: ultraPokedex,
+      techused: ["Next.js", "Tailwind", "Pikaserve API"],
+      linktosite: "https://ultrapokedex.vercel.app/",
+      githublink: "https://github.com/reezayn/rijan-pokedex-v1",
+    },
+    {
+      id: 3,
       title: "Ree-gym",
       shortdesc: "Your personal gym exercise search tool",
       projectpic: reegym,
@@ -24,14 +34,23 @@ const Projects = () => {
       githublink: "https://github.com/reezayn/rijan-gym",
     },
     {
-      id: 3,
-      title: "Yatra",
-      shortdesc: "The only travel companion you need",
-      projectpic: yatra,
-      techused: ["React", "Tailwind", "Material UI"],
-      linktosite: "https://project-yatra.netlify.app/",
-      githublink: "https://github.com/reezayn/project-yatra",
+      id: 4,
+      title: "Doctorsahab",
+      shortdesc: "An AI powered Health tool",
+      projectpic: Doctorsahab,
+      techused: ["React", "Tailwind", "Python"],
+      linktosite: "https://doctorsahab.netlify.app/",
+      githublink: "https://github.com/reezayn/doctorsahab",
     },
+    // {
+    //   id: 5,
+    //   title: "Yatra",
+    //   shortdesc: "The only travel companion you need",
+    //   projectpic: yatra,
+    //   techused: ["React", "Tailwind", "Material UI"],
+    //   linktosite: "https://project-yatra.netlify.app/",
+    //   githublink: "https://github.com/reezayn/project-yatra",
+    // },
   ];
   return (
     <div
