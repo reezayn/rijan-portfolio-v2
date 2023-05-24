@@ -15,7 +15,7 @@ const Timeline = () => {
         <h1 className="mx-auto text-lg font-semibold text-sky-400">1</h1>
       </div>
       <div className="order-1 w-5/12 px-6 py-4 bg-gray-800 border-2 rounded-lg shadow-xl border-sky-400">
-        <h5 className='text-xs text-gray-300 md:text-sm lg:text-base'>Feb 2023 - April 2023</h5>
+        <h5 className='text-xs text-gray-300 md:text-sm lg:text-base'>Feb 2023 - May 2023</h5>
         <h3 className="my-1 text-base font-bold text-white md:text-lg lg:text-xl">Junior Developer Intern</h3>
         <h5 className='text-xs leading-snug tracking-wide text-opacity-100 md:text-sm text-gray-50'>ByteFaucet Technology</h5>
         <h5 className='text-[10px] lg:text-xs leading-snug tracking-wide text-gray-300 text-opacity-100'>Kathmandu, Nepal</h5>

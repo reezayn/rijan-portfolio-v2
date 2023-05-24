@@ -42,15 +42,15 @@ const Projects = () => {
       linktosite: "https://doctorsahab.netlify.app/",
       githublink: "https://github.com/reezayn/doctorsahab",
     },
-    // {
-    //   id: 5,
-    //   title: "Yatra",
-    //   shortdesc: "The only travel companion you need",
-    //   projectpic: yatra,
-    //   techused: ["React", "Tailwind", "Material UI"],
-    //   linktosite: "https://project-yatra.netlify.app/",
-    //   githublink: "https://github.com/reezayn/project-yatra",
-    // },
+    {
+      id: 5,
+      title: "Yatra",
+      shortdesc: "The only travel companion you need",
+      projectpic: yatra,
+      techused: ["React", "Tailwind", "Material UI"],
+      linktosite: "https://project-yatra.netlify.app/",
+      githublink: "https://github.com/reezayn/project-yatra",
+    },
   ];
   return (
     <div

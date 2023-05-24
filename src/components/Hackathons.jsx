@@ -3,6 +3,28 @@ import React from 'react'
 const Hackathons = () => {
   const hackathonsArray = [
     {
+      id: 4,
+      name: 'DeerHack',
+      organizer: 'Deerwalk College',
+      venue: 'Deerwalk, Sifal',
+      date: 'May 10-13, 2023',
+      position: 'Winners (First position)',
+      blogLink: '#',
+      shortDesc:
+        'My dream of winning a hackathon finally came true. It was a very great feeling. My team worked relentlessly for this and we made this work out for us.',
+    },
+    {
+      id: 3,
+      name: 'Hackcorruption',
+      organizer: 'Accountability Lab and US Government',
+      venue: 'Park Village Resort',
+      date: 'April 18-23, 2023',
+      position: '',
+      blogLink: '#',
+      shortDesc:
+        'Getting selected for a international hackathon and working with teammates from different countries was a great experience. I got to learn so many things about corruption and how can tech solve it in real world.',
+    },
+    {
       id: 2,
       name: 'CodeBrisk Hackathon',
       organizer: 'Herald College, Kathmandu',

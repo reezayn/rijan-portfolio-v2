@@ -10,7 +10,8 @@ const Experience = () => {
             Experience
           </h1>
           <p className="mt-10 text-lg text-gray-500">
-            These are places where I have worked.<br /> <i> ( I am just starting, it'll take some time to fill this section )</i>
+            These are places where I have worked.<br /> 
+            {/* <i> ( I am just starting, it'll take some time to fill this section )</i> */}
           </p>
         </div>
         <div>
