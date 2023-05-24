@@ -1,6 +1,7 @@
 import React from "react";
 import Doctorsahab from "../assets/projectspics/doctorsahab.png";
 import reegym from "../assets/projectspics/reegym.png";
+import yatra from "../assets/projectspics/yatra.png";
 import rijanAnimeBlog from "../assets/projectspics/rijanAnimeBlog.png";
 import ultraPokedex from "../assets/projectspics/ultraPokedex.png";
 
